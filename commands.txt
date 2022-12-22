@@ -1,0 +1,27 @@
+$ git commit
+
+$ git branch feature HEAD^
+
+$ git checkout feature
+
+$ git commit
+
+$ git commit
+
+$ git checkout main
+
+$ git commit
+
+$ git branch feature2 HEAD^
+
+$ git checkout feature2
+
+$ git commit
+
+$ git commit
+
+$ git rebase -i main
+
+$ git branch -f main
+
+$ git checkout main
